@@ -6,4 +6,6 @@ Ubuntu based sandbox for [env_constructions](https://github.com/thalathalaylah/e
 ```
 docker build . -t env_sandbox
 docker run -d -it --name <container_name> env_sandbox
+docker exec -u test -it <container_id> /bin/sh
 ```
+
